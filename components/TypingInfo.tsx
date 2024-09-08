@@ -1,8 +1,8 @@
 import React from 'react'
 
-const TypingInfo = () => {
+function TypingInfo() {
     return (
-        <div id="typing-info" className='w-[700px] h-[170px] flex z-50 bg-slate-800 rounded-2xl p-3'>
+        <div id="typing-info" className='w-full h-[170px] flex z-50 bg-slate-800 rounded-2xl p-3 dark:bg-Colors-dcard shadow-md bg-Colors-card'>
             <div className="w-1/4 flex flex-col items-center justify-center mx-1">
                 <h1 className='text-2xl font-bold'>0:11</h1>
                 <div className='w-full h-[2px] bg-slate-900 my-2' />
